@@ -69,10 +69,6 @@ Once the application is up and running, you can access the REST API through the 
 - **/Employee/saveEmployee:** his endpoint allows for the creation of a new employee record. It saves the Employee object and generates a JWT token for the employee's name. The token is returned in the response for future authentication.
 - **/Employee/getEmployee:**  This endpoint retrieves the data of an employee based on the JWT token provided in the request header (Authorization). The token's username is extracted to fetch the employee's details.
 - **/Employee/delete:**  This endpoint deletes an employee record from the database based on the JWT token provided in the request header (Authorization). The username is extracted from the token to identify the employee to delete.
-- **GET /Cart/fetchAllcart:** Retrieves all carts from the database.
-- **GET /Cart/productexistsinCart/{cartId}/{productId}/stockQuanty/{stockQuanty}:** Verifies if a product exists in the specified cart with the given quantity. Requires the cart ID, product ID, and stock quantity as path variables.
-- **PUT /Cart/{cartId}/product/{productId}/stockQuanty/{stockQuanty}:** Updates the quantity of a specified product in the cart. Requires the cart ID, product ID, and updated stock quantity as path variables.
- - **GET /Cart/fetchCountByCartId/{cartId}:** Fetches the total product count in the cart by the specified cart ID. Returns the cart details including the total count.
    
 ### 4) API Documentation
 You can explore and test the APIs using Swagger (if integrated) or tools like Postman. Below is an example of a sample API request in Postman:
