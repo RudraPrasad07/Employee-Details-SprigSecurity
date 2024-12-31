@@ -35,7 +35,7 @@
 1. **Clone the Repository:**
    
     ```bash
-        https://github.com/RudraPrasad07/EmployeeManagementAPI.git
+      git clone https://github.com/RudraPrasad07/EmployeeManagementAPI.git
     ```
 2. **Navigate to the Project Directory:**
    
