@@ -65,7 +65,7 @@
 ### 3) Running the Application
 Once the application is up and running, you can access the REST API through the following endpoints:
 
-#### CartController
+#### Employee Controller
 - **/Employee/saveEmployee:** his endpoint allows for the creation of a new employee record. It saves the Employee object and generates a JWT token for the employee's name. The token is returned in the response for future authentication.
 - **/Employee/getEmployee:**  This endpoint retrieves the data of an employee based on the JWT token provided in the request header (Authorization). The token's username is extracted to fetch the employee's details.
 - **/Employee/delete:**  This endpoint deletes an employee record from the database based on the JWT token provided in the request header (Authorization). The username is extracted from the token to identify the employee to delete.
