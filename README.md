@@ -35,12 +35,12 @@
 1. **Clone the Repository:**
    
     ```bash
-      git clone https://github.com/RudraPrasad07/EmployeeManagementAPI.git
+      git clone https://github.com/RudraPrasad07/Employee-Details-SprigSecurity.git
     ```
 2. **Navigate to the Project Directory:**
    
     ```bash
-    cd EmployeeManagementAPI
+    cd Employee-Details-SprigSecurity
     ```
 3. **Configure Database:**
    
